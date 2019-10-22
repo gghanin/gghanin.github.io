@@ -1,0 +1,32 @@
+header{
+	position: fixed !important;
+    top: 0 !important;
+    background: #fff !important;
+    width: 100% !important;
+    z-index: 100 !important;
+}
+.site-block-profile-pic img
+{
+	border-radius:0% !important;
+}
+.site-blocks-cover h1
+{
+	font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+.fixedAddFri
+{
+	position: fixed;
+    bottom: 0;
+}
+.site-blocks-cover{
+    margin-top: 100px;
+}
+    @media screen and (min-width:768px) { 
+		.fixedAddFri
+		{
+		display: none;
+		}
+
+    }
